@@ -1,0 +1,75 @@
+/* Estilos da página index.html*/
+
+.center{
+    text-align: center;
+    color: #574b90;
+}
+
+/* Tamanho das letras do parágrafo e centralização*/
+.p1{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Alinhar os parágrafos ao lado da foto*/
+.container{
+    display: flex;
+    flex-flow: row; /* Na mesm linha*/
+    justify-content: center; /* Justificado ao centro*/
+    align-items: center; /* Alinhado ao centro de acordo com a altura da imagem*/
+}
+
+#menu li{
+    display: inline; /* Deixar os menus alinhados*/
+    padding: 15px; /* Espaçamento*/
+}
+
+#menu li a{
+    text-decoration: none; /* Sem decoração */
+    color: blueviolet;
+    text-decoration: underline wavy #f8a5c2;  /* Sublinhado ondulado rogue pink */
+    font-size: 20px;
+}
+
+#menu li a:hover{ /* Ao passar o mouse sobre o menu ele ficará na cor rose */
+    color: #c44569; 
+}
+
+.p-30{
+    padding: 30px; /* Margem no texto para afastar da borda*/
+}
+
+.br-50{
+    border-radius: 50%; /* Deixar a imagem redonda*/
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+
+
+/* Estilos da página contato.html*/ 
+
+
+.wh-300{
+    width: 300;
+    height: 300;
+}
+
+.tm-social{
+    width: 50px; /* Largura rede social*/
+    height: 50px; /* Altura rede social*/
+}
+
+.tm-logo{
+    width: 100px; /* Largura logo*/
+    height: 100px; /* Altura logo*/
+}
+
+.container2{
+    display: flex;
+    flex-flow: row; /* Na mesm linha*/
+    justify-content: space-evenly; /* Justificado ao centro*/
+    align-items: center; /* Alinhado ao centro de acordo com a altura da imagem*/
+}
